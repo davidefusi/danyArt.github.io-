@@ -1,14 +1,3 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CCFPZ23KRJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CCFPZ23KRJ');
-</script>
-
-
 
 var dd1 = document.getElementById("main");
 var dd2 = document.getElementById("headback");
