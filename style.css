@@ -1,0 +1,1228 @@
+/* CSS for desktop */
+
+@media screen and (min-width: 1350px) and (max-width: 3500px) {
+body{background-color:black}
+
+h1 { color:#DFDFDF;
+text-align:center;
+font-family: Cursive;
+font-size: 4em;
+display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 150px ;
+  #150px;
+  gap: 10px;
+  #background-color: #2196F3;
+  padding: 10px;}
+
+ .intitle{border-radius: 50%; 
+  height:40px;
+  width:40px;}
+
+h2 { color:#DFDFDF;
+
+font-family: fantasy;
+font-size: 3em;
+}
+
+#hiddenlake{ color:#DF88AA;
+  font-family: fantasy;
+font-size: 2em;
+}
+
+#dining { color:#DF8800;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#pool { color:#2608FF;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#main{
+  display: ;
+}
+ 
+  
+#CANAS{
+  display:none;
+}
+
+#FACE{
+  display:none;
+}
+
+#WALL{
+  display:none;
+}
+
+#ABOT{
+  display:none;
+}
+
+
+
+
+.allIndex{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 150px 500px 150px;
+  gap: 10px;
+  #background-color: #2196F3;
+  padding: 10px;
+}
+
+#can{
+  display:grid;
+  grid-template-columns: 33.3% 33.4% 33.3%;
+  grid-template-rows: 380px 380px 380px;
+  gap: 3px;
+  padding:3px;
+  background-color:black;
+}
+
+  .container{
+    
+  } 
+  
+  #form{
+    #background-color:gray;
+    margin: 20.1px;
+    display: grid;
+  align-items: center;
+  justify-content: center;
+  #height:300px;
+  
+  }
+  
+  .form-control{
+    width: 650px;
+    
+  }
+  
+  .form-group{
+    width: 650px;
+    
+  }
+#submitfm{
+   width: 660px;
+
+  }
+ 
+  
+.aboutpg{
+  
+  color: #AAFFAA;
+  padding: 10px;
+  font-size:1.8em;
+}
+
+.wallpt{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 340px;
+  gap: 3px;
+  padding: 3px;
+  background-color:black;
+}
+
+
+.indexC{width: 200px;
+  height:100px;
+font-size:1.3em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  
+.indexC1{width: 200px;
+  height:100px;
+font-size:1.3em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+ .indexSL{width: 200px;
+  height:100px;
+font-size:1.3em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 85%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+.indexSR{width: 200px;
+  height:100px;
+font-size:1.3em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 15%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+#prfpic{width: 450px;
+  height:550px;
+  position: relative;
+  left: 50%;
+  top:35%;
+  bottom:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius:40%;
+}
+
+#goBack{ width: 250px;
+  height:100px;
+font-size:0.3em;
+color:white;
+background-color:blue;
+  border-radius:50%;
+   }
+
+.gallery{
+  
+  margin: 0.1px;
+  border: 0.3px ;
+  border: 0.3px ;
+  background-color:black;
+}
+.galleryw{
+  width:345px;
+  height:330;
+  margin: 0.1px;
+  border: 0.3px solid #ccc;
+  border: 0.3px solid #777;
+  background-color:black;
+}
+.desc{
+  font-size: 12px;
+  padding: 4px;
+  background-color:black;
+  color:white;
+  height:40px;
+}
+
+.image{
+  align: center;
+  width:437px; 
+  height:330px;
+}
+
+.imagesm{
+  align: center;
+  width:345px; 
+  height:340px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+ @media only screen and (max-width: 2500px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+}
+
+#CANAS{
+  display:none;
+}
+
+
+}
+
+
+
+
+
+/* CSS for mobile */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+body{background-color:black}
+
+h1 { color:#DFDF00;
+text-align:center;
+font-family: Cursive;
+font-size: 0.8em;
+display: grid;
+  grid-template-columns: 20% 60% 20%;
+  #grid-template-rows: 50px ;
+  #150px;
+  gap: 3px;
+  #background-color: #2196F3;
+  padding: 3px;}
+  
+ .intitle{border-radius: 50%; 
+  height:20px;
+  width:25px;}
+  
+ h2 { color:#DFDFDF;
+
+font-family: fantasy;
+font-size: 1em;
+}
+  
+ #main{
+  display: ;
+}
+
+
+  
+.allIndex{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 60px 200x 60px;
+  gap: 3px;
+  #background-color: #2196F3;
+  padding: 3px;
+}
+  
+.indexC{width: 70px;
+  height:30px;
+font-size:0.6em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+  
+.indexC1{width: 70px;
+  height:30px;
+font-size:0.6em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  
+  
+ .indexSL{width: 70px;
+  height:30px;
+font-size:0.6em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 70%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+.indexSR{width: 70px;
+  height:30px;
+font-size:0.6em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 30%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+#prfpic{width: 100px;
+  height:120px;
+  position: relative;
+  left: 50%;
+  top:35%;
+  bottom:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius:40%;
+}
+  
+  
+#CANAS{
+  display:none;
+}
+  
+ #can{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  #grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 15px;
+  padding: 15px;
+  background-color:black;
+}
+  
+ .image{
+  align: center;
+ width:140px; 
+  height:130px;
+}
+ .imagesm{
+   
+  align: center;
+ width:240px; 
+  height:230px;
+} 
+  
+.desc{
+  color:white;
+  font-size: 8px;
+  padding: 1px;
+  background-color:black;
+  height:55px;
+}
+
+#FACE{
+  display:none;
+}
+
+#WALL{
+  display:none;
+}
+
+ #dining { color:#DF8800;
+
+font-family: fantasy;
+font-size: 1.5em;
+}
+
+#pool { color:#2608FF;
+
+font-family: fantasy;
+font-size: 1.5em;
+}
+#ABOT{
+  display:none;
+}
+ 
+.aboutpg{
+  
+  color: #AAFFAA;
+  padding: 9px;
+  font-size:0.7em;
+}  
+  
+.container{
+    
+  } 
+  
+  #form{
+    #background-color:gray;
+    margin: 20.1px;
+    display: grid;
+  align-items: center;
+  justify-content: center;
+  #height:300px;
+  
+  }
+  
+  .form-control{
+    width: 290px;
+    
+  }
+  
+  .form-group{
+    width: 290px;
+    
+  }
+#submitfm{
+   width: 300px;
+
+  }
+  
+  #goBack{ width: 65px;
+  height:30px;
+font-size:0.5em;
+color:white;
+background-color:blue;
+  border-radius:50%;
+   }
+  
+ .gallery{
+  
+  margin: 0.1px;
+  border: 0.3px ;
+  border: 0.3px ;
+  background-color:black;
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#CANAS{
+  display:none;
+}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media screen and (min-width: 480px) and (max-width: 900px){
+ 
+body{background-color:black}
+
+h1 { color:#DFDFDF;
+text-align:center;
+font-family: Cursive;
+font-size: 2.5em;
+display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 80px ;
+  #150px;
+  gap: 8px;
+  #background-color: #2196F3;
+  padding: 8px;}
+
+ .intitle{border-radius: 10%; 
+  height:25px;
+  width:25px;}
+
+h2 { color:#DFDFDF;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#hiddenlake{ color:#DF88AA;
+  font-family: fantasy;
+font-size: 2em;
+}
+
+#dining { color:#DF8800;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#pool { color:#2608FF;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#main{
+  display: ;
+}
+ 
+  
+#CANAS{
+  display:none;
+}
+
+#FACE{
+  display:none;
+}
+
+#WALL{
+  display:none;
+}
+
+#ABOT{
+  display:none;
+}
+
+
+
+
+.allIndex{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 150px 500px 150px;
+  gap: 10px;
+  #background-color: #2196F3;
+  padding: 10px;
+}
+
+#can{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 320px 320px 320px 320px;
+  gap: 3px;
+  padding:3px;
+  background-color:black;
+}
+
+  .container{
+    
+  } 
+  
+  #form{
+    #background-color:gray;
+    margin: 20.1px;
+    display: grid;
+  align-items: center;
+  justify-content: center;
+  #height:300px;
+  
+  }
+  
+  .form-control{
+    width: 450px;
+    
+  }
+  
+  .form-group{
+    width: 400px;
+    
+  }
+#submitfm{
+   width: 460px;
+
+  }
+ 
+  
+.aboutpg{
+  
+  color: #AAFFAA;
+  padding: 10px;
+  font-size:1.4em;
+}
+
+.wallpt{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 230px;
+  gap: 0px;
+  padding: 0px;
+  background-color:black;
+}
+
+
+.indexC{width: 100px;
+  height:80px;
+font-size:0.9em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  top:30%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.indexC1{width: 100px;
+  height:80px;
+font-size:0.9em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 52%;
+  top:-90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  
+ .indexSL{width: 100px;
+  height:80px;
+font-size:0.9em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 60%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+.indexSR{width: 100px;
+  height:80px;
+font-size:0.9em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 40%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+#prfpic{width: 200px;
+  height:300px;
+  position: relative;
+  left: 50%;
+  top:25%;
+  bottom:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius:40%;
+}
+
+#goBack{ width: 90px;
+  height:45px;
+font-size:0.25em;
+color:white;
+background-color:blue;
+  border-radius:50%;
+   }
+
+.gallery{
+  
+  margin: 0.1px;
+  border: 0.3px ;
+  border: 0.3px ;
+  background-color:black;
+}
+
+.desc{
+  font-size: 12px;
+  padding: 4px;
+  background-color:black;
+  color:white;
+  height:40px;
+}
+
+.image{
+  align: center;
+  width:237px; 
+  height:200px;
+}
+
+.imagesm{
+  align: center;
+  width:245px; 
+  height:230px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  
+  
+ @media only screen and (max-width: 1349px){
+  .modal-content {
+    width: 60%;
+  }
+}
+
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+
+}
+/*@media screen and (min-width: 768px) and (max-width: 991px) {
+
+insert your boss css here
+
+} 
+
+
+/* 100% Image Width on Smaller Screens */
+@media screen and (min-width: 900px) and (max-width: 1349px){
+ 
+body{background-color: black}
+
+h1 { color:#DFDFDF;
+text-align:center;
+font-family: Cursive;
+font-size: 3.5em;
+display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 80px ;
+  #150px;
+  gap: 8px;
+  #background-color: #2196F3;
+  padding: 8px;}
+
+ .intitle{border-radius: 40%; 
+  height:35px;
+  width:35px;}
+
+h2 { color:#DFDFDF;
+
+font-family: fantasy;
+font-size: 2.5em;
+}
+
+#hiddenlake{ color:#DF88AA;
+  font-family: fantasy;
+font-size: 2em;
+}
+
+#dining { color:#DF8800;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#pool { color:#2608FF;
+
+font-family: fantasy;
+font-size: 2em;
+}
+
+#main{
+  display: ;
+}
+ 
+  
+#CANAS{
+  display:none;
+}
+
+#FACE{
+  display:none;
+}
+
+#WALL{
+  display:none;
+}
+
+#ABOT{
+  display:none;
+}
+
+
+
+
+.allIndex{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 150px 500px 150px;
+  gap: 10px;
+  #background-color: #2196F3;
+  padding: 10px;
+}
+
+#can{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 400px;
+  gap: 3px;
+  padding:3px;
+  background-color:black;
+}
+
+  .container{
+    
+  } 
+  
+  #form{
+    #background-color:gray;
+    margin: 20.1px;
+    display: grid;
+  align-items: center;
+  justify-content: center;
+  #height:300px;
+  
+  }
+  
+  .form-control{
+    width: 600px;
+    
+  }
+  
+  .form-group{
+    width: 450px;
+    
+  }
+#submitfm{
+   width: 610px;
+
+  }
+ 
+  
+.aboutpg{
+  
+  color: #AAFFAA;
+  padding: 10px;
+  font-size:1.4em;
+}
+
+.wallpt{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 340px;
+  gap: 3px;
+  padding: 3px;
+  background-color:black;
+}
+
+
+.indexC{width: 200px;
+  height:100px;
+font-size:1.5em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 50%;
+  top:00%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.indexC1{width: 200px;
+  height:100px;
+font-size:1.5em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 52%;
+  top:-60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  
+ .indexSL{width: 200px;
+  height:100px;
+font-size:1.5em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 60%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+.indexSR{width: 200px;
+  height:100px;
+font-size:1.5em;
+color:white;
+background-color:purple;
+  border-radius:50%;
+   position: relative;
+  left: 40%;
+   top:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+#prfpic{width: 290px;
+  height:420px;
+  position: relative;
+  left: 50%;
+  top:25%;
+  bottom:25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius:40%;
+}
+
+#goBack{ width: 160px;
+  height:65px;
+font-size:0.25em;
+color:white;
+background-color:blue;
+  border-radius:50%;
+   }
+  #csimg1{
+    width:440px;
+    heigth:370px;
+  }
+.gallery{
+  
+  margin: 0.1px;
+  border: 0.3px ;
+  border: 0.3px ;
+  background-color:black;
+}
+.galleryw{
+  width:350px;
+  height:370px;
+  margin: 0.1px;
+  border: 0.1px solid #ccc;
+  background-color:black;
+}
+.desc{
+  font-size: 12px;
+  padding: 4px;
+  background-color:black;
+  color:white;
+  height:40px;
+}
+
+.image{
+  align: center;
+  width:450px; 
+  height:340px;
+}
+
+.imagesm{
+  align: center;
+  width:345px; 
+  height:340px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  
+  
+ @media only screen and (max-width: 1349px){
+  .modal-content {
+    width: 60%;
+  }
+}
+
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+
+}
